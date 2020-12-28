@@ -1,0 +1,14 @@
+# Google APIs
+\bgoogleapis\.com/[a-z]+/v\d+/[a-z]+/[@./?=\w]+
+# Google Calendar
+\bcalendar\.google\.com/calendar/u/\d+/embed\?src=[@./?=\w]+
+\w+\@group\.calendar\.google\.com\b
+# Internet Archive
+\barchive\.org/web/\d+/([-\w.?,'/\\+&%$#_:]*)
+# Sentry
+[0-9a-f]{32}\@o\d+\.ingest\.sentry\.io\b
+
+# hex digits including css/html color classes:
+(?:[\\0][xX]|\\u|[uU]\+|#|\%23)[0-9a-fA-FgGrR_]{2,}[uU]?[lL]{0,2}\b
+# ignore long runs of a single character:
+\b([A-Za-z])\1{3,}\b

@@ -1,0 +1,7 @@
+\.ico$
+\.keep$
+\.png$
+^\.github/
+^html/opusjs/decoder\.js$
+^html/opusjs/encoder\.js$
+ignore$
